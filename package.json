@@ -1,0 +1,23 @@
+{
+  "name": "backbone-inflight",
+  "description": "Backbone Inflight",
+  "version": "0.1.0",
+  "homepage": "https://github.com/raicheff/backbone-inflight",
+  "author": {
+    "name": "Boris Raicheff",
+    "email": "b@raicheff.com",
+    "url": "https://raicheff.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raicheff/backbone-inflight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raicheff/backbone-inflight/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "main": "backbone-inflight.js"
+}
