@@ -19,15 +19,6 @@
 
   "use strict";
 
-  /*
-   * http://bl.ocks.org/jwhitfieldseed/ba11edf04529c4603323
-   *
-   * Patches Backbone's `Model` and `Collection` to have awareness of current sync state.
-   * Adds an `isLoading` method and `_inflight` count property.
-   *
-   * Based on http://tbranyen.com/post/how-to-indicate-backbone-fetch-progress
-   */
-
   _([Backbone.Model, Backbone.Collection]).each(function(Class) {
 
     var sync = Class.prototype.sync;
