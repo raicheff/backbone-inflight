@@ -33,7 +33,7 @@
 
       sync: function() {
         ++this._inflight;
-        return sync.apply(this, arguments).always(function() { --this._inflight; }.bind(this));
+        return sync.apply(this, arguments).finally(function() { --this._inflight; }.bind(this));
       }
 
     });
